@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:syncTheme="clr-namespace:Syncfusion.XForms.Themes;assembly=Syncfusion.Core.XForms"
+             mc:Ignorable="d"
+             x:Class="TextInputLayout_BorderColor.App">
+    <Application.Resources>
+        <syncTheme:SyncfusionThemeDictionary>
+            <syncTheme:SyncfusionThemeDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <x:String x:Key="SfTextInputLayoutTheme">CustomTheme</x:String>
+                    <!--Hint Color for focused state-->
+                    <Color x:Key="SyncPrimaryLightColor">Black</Color>
+                    <!--Hint Color for unfocused state-->
+                    <Color x:Key="SfTextInputLayoutHintColor">Gray</Color>
+                    <!--Border Color for focused state-->
+                    <Color x:Key="SyncPrimaryColor">DarkCyan</Color>
+                    <!--Border Color for unfocused state-->
+                    <Color x:Key="SfTextInputLayoutLineColor">Gray</Color>
+                    <!--Helper text Color for default state-->
+                    <Color x:Key="SfTextInputLayoutHelperTextColor">BlueViolet</Color>
+                    <!--Character count text Color for default state-->
+                    <Color x:Key="SfTextInputLayoutCounterLabelColor">DarkGoldenrod</Color>
+                    <!--Error text Color for default state-->
+                    <Color x:Key="SfTextInputLayoutErrorTextColor">Red</Color>
+                </ResourceDictionary>
+            </syncTheme:SyncfusionThemeDictionary.MergedDictionaries>
+        </syncTheme:SyncfusionThemeDictionary>
+    </Application.Resources>
+</Application>

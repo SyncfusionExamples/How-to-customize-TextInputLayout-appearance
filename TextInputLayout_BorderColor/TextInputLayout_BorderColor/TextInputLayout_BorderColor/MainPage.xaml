@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+             mc:Ignorable="d"
+             x:Class="TextInputLayout_BorderColor.MainPage">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="StartAndExpand">
+        <inputLayout:SfTextInputLayout Hint="Email" ContainerType="Outlined" HelperText="Enter your email" 
+                                       Margin="16" ShowCharCount="True" CharMaxLength="10">
+            <Entry/>
+        </inputLayout:SfTextInputLayout>
+    </StackLayout>
+
+</ContentPage>

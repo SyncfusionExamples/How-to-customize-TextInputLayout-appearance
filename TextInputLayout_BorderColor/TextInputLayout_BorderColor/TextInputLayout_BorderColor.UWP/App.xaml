@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="TextInputLayout_BorderColor.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TextInputLayout_BorderColor.UWP"
+    RequestedTheme="Light">
+
+</Application>
