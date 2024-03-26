@@ -1,22 +1,22 @@
 # How to customize TextInputLayout appearance 
 This demo sample explains how to customize TextInputLayout appearance 
-# Adding SfTextInputLayout reference
+## Adding SfTextInputLayout reference
 You can add SfTextInputLayout reference using one of the following methods:
 
-## Method 1: Adding SfTextInputLayout reference from nuget.org
+### Method 1: Adding SfTextInputLayout reference from nuget.org
 
 Syncfusion Xamarin components are available in nuget.org. To add SfTextInputLayout to your project, open the NuGet package manager in Visual Studio, search for Syncfusion.Xamarin.Core, and then install it.
 
 
-## Method 2: Adding SfTextInputLayout reference from toolbox
+### Method 2: Adding SfTextInputLayout reference from toolbox
 
 Syncfusion also provides Xamarin Toolbox. Using this toolbox, you can drag the Xamarin Text Input Layout (SfTextInputLayout) control to the XAML page. It will automatically install the required NuGet packages and add the namespace to the page. To install Syncfusion Xamarin Toolbox, refer to Toolbox.
 
-## Method 3: Adding SfTextInputLayout assemblies manually from the installed location
+### Method 3: Adding SfTextInputLayout assemblies manually from the installed location
 
 If you prefer to manually reference the assemblies instead referencing from NuGet, add the following assemblies in respective projects.
 
-# Initializing text input layout
+## Initializing text input layout
 Import the SfTextInputLayout control namespace in respective page as demonstrated in the following code sample.
 
 **[XAML]**
@@ -41,7 +41,7 @@ var inputLayout = new SfTextInputLayout();
 inputLayout.InputView = new Entry();
 ```
 
-# How to customize the properties of (outline border colors, hint name, helper text, error text, and char count) of TextInputLayout in Xamarin.Forms
+## How to customize the properties of (outline border colors, hint name, helper text, error text, and char count) of TextInputLayout in Xamarin.Forms
 Color customization of outline border can be achieved by setting respective color for FocusedColor (focussed state) and UnfocusedColor (unfocussed state) properties of SfTextInputLayout as shown in below code snippet.
 
 **[XAML]**
